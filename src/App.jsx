@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import {} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from "./components/Home";
-import Login from "./components/Login";
-import Registr  from "./components/Register";
-import Post from "./components/Post"
-import PostList from "./components/PostList";
-import AddPost from "./components/AddPost";
-import AddComment from "./components/AddComment"
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Registr  from "./pages/Register";
+import Post from "./pages/Post"
+import PostList from "./pages/PostList";
+import AddPost from "./pages/AddPost";
+import AddComment from "./pages/AddComment";
 
 const App = () =>{
 return(
